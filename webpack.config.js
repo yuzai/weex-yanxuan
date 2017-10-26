@@ -3,7 +3,6 @@ const fs = require('fs-extra');
 const webpack = require('webpack');
 
 //在此处指定index,并且src下不能有index.vue这样的文件，否则指定的indexui会被覆盖掉
-//指定入口文件
 const entry = {index:pathTo.resolve('src','entry.js')};
 const weexEntry = {index:pathTo.resolve('src','entry.js')};
 const vueWebTemp = 'temp';
